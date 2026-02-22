@@ -15,7 +15,7 @@ The result of this project is expected to help financial institutions detect fra
 
 # Main Results
 
-The best performing model in this project is **XGBoost Tuned**, with the following performance:
+The best performing model in this project is **XGBoost Tuned**, with the following performance :
 
 - **PR-AUC : 0.874**
 - **Fraud Detection Rate : 78.6%**
@@ -37,7 +37,7 @@ These results indicate that the model is capable of detecting the majority of fr
 
 # Project Objectives
 
-The main objectives of this project are:
+The main objectives of this project are :
 
 - Build a machine learning model to detect potentially fraudulent credit card transactions
 - Compare the performance of several machine learning algorithms
@@ -53,7 +53,7 @@ The dataset used in this project is the **Credit Card Fraud Detection Dataset** 
 
 The dataset contains credit card transactions made by European cardholders in **September 2013**.
 
-Dataset Source:  
+Dataset Source :  
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ---
@@ -71,7 +71,7 @@ This imbalance makes fraud detection particularly challenging because the model 
 
 # Dataset Features
 
-The dataset contains **31 features**:
+The dataset contains **31 features** :
 
 - **Time** → time elapsed since the first transaction
 - **Amount** → transaction amount
@@ -86,7 +86,7 @@ Because the dataset is highly imbalanced, model evaluation focuses on metrics su
 
 # Machine Learning Models Used
 
-Several machine learning algorithms were implemented and compared in this project:
+Several machine learning algorithms were implemented and compared in this project :
 
 - Logistic Regression
 - Random Forest
@@ -102,7 +102,7 @@ Each model was trained using the training dataset and evaluated on the testing d
 
 Since the dataset is highly imbalanced, **accuracy alone is not a reliable metric**.
 
-The following evaluation metrics were used:
+The following evaluation metrics were used :
 
 ### Precision
 Measures how many predicted fraud transactions are actually fraud.
@@ -123,7 +123,7 @@ A crucial metric for **imbalanced datasets** because it focuses on the model’s
 
 # Project Pipeline
 
-The workflow of this project includes the following stages:
+The workflow of this project includes the following stages :
 
 1. Import Library  
 2. Load Dataset  
@@ -140,7 +140,7 @@ The workflow of this project includes the following stages:
 
 # Final Model and Business Recommendation
 
-Based on the experimental results and model evaluation, several machine learning algorithms were compared to detect fraudulent credit card transactions, including:
+Based on the experimental results and model evaluation, several machine learning algorithms were compared to detect fraudulent credit card transactions, including :
 
 - Logistic Regression
 - Random Forest
@@ -148,7 +148,7 @@ Based on the experimental results and model evaluation, several machine learning
 - XGBoost
 - LightGBM
 
-The evaluation results show that **XGBoost Tuned** provides the best performance with:
+The evaluation results show that **XGBoost Tuned** provides the best performance with :
 
 - **ROC-AUC : 0.978**
 - **PR-AUC : 0.874**
@@ -165,7 +165,7 @@ The optimal threshold selected is:
 
 **Threshold = 0.7**
 
-With this threshold, the model produces:
+With this threshold, the model produces :
 
 - **Fraud Detected** : 77 transactions
 - **Missed Fraud** : 21 transactions
@@ -231,3 +231,9 @@ LightGBM
 Matplotlib  
 Seaborn  
 Google Colab  
+
+---
+
+Note: The dataset is not included in this repository due to file size limitations.
+Please download the dataset from Kaggle and place the file `creditcard.csv`
+in the project directory before running the notebook.
