@@ -180,3 +180,54 @@ The model is able to detect approximately **78.6% of fraudulent transactions** w
 The results show that the model has strong potential to support banking and fintech systems in detecting fraudulent transactions more effectively.
 
 By detecting fraud earlier and minimizing false alarms, financial institutions can significantly reduce potential financial losses while maintaining a better customer experience.
+
+---
+
+## How to Run the Project
+
+1. Clone this repository
+
+git clone https://github.com/neosaffana/credit-card-fraud-detection.git
+
+2. Download the dataset
+
+Download the dataset from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+3. Place the dataset file
+
+Place the file `creditcard.csv` in the project folder.
+
+4. Install required libraries
+
+pip install -r requirements.txt
+
+5. Open the notebook
+
+credit_card_fraud_detection.ipynb
+
+6. Run all cells to reproduce the analysis.
+
+---
+
+## Project Structure
+
+credit-card-fraud-detection  
+│  
+├── credit_card_fraud_detection.ipynb  
+├── README.md  
+├── requirements.txt
+└── .gitignore  
+
+---
+
+## Technologies Used
+
+Python  
+Pandas  
+NumPy  
+Scikit-learn  
+XGBoost  
+LightGBM  
+Matplotlib  
+Seaborn  
+Google Colab  
